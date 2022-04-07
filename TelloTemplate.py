@@ -48,9 +48,10 @@ def square():
         sendmsg("cw 90")
 
 def firstHoop():
-    sendmsg("forward 175")
+    sendmsg("forward 180")
 
 def secondHoop():
+    sendmsg("go 0 0 100 10")
 
 print("\nTucker McIntyre")
 print("Program Name:FlightSchool ")
@@ -68,6 +69,8 @@ try:
         sendmsg('takeoff')
 
         firstHoop()
+
+        secondHoop()
 
 
 
