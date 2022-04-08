@@ -51,7 +51,7 @@ def firstHoop():
     sendmsg("forward 180")
 
 def secondHoop():
-    sendmsg("go 0 0 100 10")
+    sendmsg("go 150 0 80 15")
 
 print("\nTucker McIntyre")
 print("Program Name:FlightSchool ")
