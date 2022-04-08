@@ -53,6 +53,9 @@ def firstHoop():
 def secondHoop():
     sendmsg("go 150 0 80 15")
 
+def HorseShoe():
+    sendmsg("curve 75 -75 0 150 -150 0 20")
+
 print("\nTucker McIntyre")
 print("Program Name:FlightSchool ")
 print("Date:4/6/22 ")
@@ -68,12 +71,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        firstHoop()
-
-        secondHoop()
-
-
-
+        HorseShoe()
 
         sendmsg('land')
 
