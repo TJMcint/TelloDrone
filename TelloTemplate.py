@@ -54,7 +54,7 @@ def secondHoop():
     sendmsg("go 150 0 80 15")
 
 def HorseShoe():
-    sendmsg("curve 75 -75 0 150 -150 0 20")
+    sendmsg("curve 200 200 0 0 400 0 20")
 
 print("\nTucker McIntyre")
 print("Program Name:FlightSchool ")
