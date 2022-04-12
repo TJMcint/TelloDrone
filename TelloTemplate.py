@@ -30,7 +30,7 @@ def recv():
             break
 
 
-def sendmsg(msg, sleep = 6):
+def sendmsg(msg, sleep = 8):
     print("Sending: " + msg)
     msg = msg.encode(encoding="utf-8")
     sock.sendto(msg, tello_address)
@@ -48,13 +48,13 @@ def square():
         sendmsg("cw 90")
 
 def firstHoop():
-    sendmsg("forward 180")
+    sendmsg("forward 500")
 
 def secondHoop():
     sendmsg("go 150 0 80 15")
 
 def HorseShoe():
-    sendmsg("curve 200 200 0 0 400 0 20")
+    sendmsg("curve 150 250 0 -150 500 0 50")
 
 print("\nTucker McIntyre")
 print("Program Name:FlightSchool ")
